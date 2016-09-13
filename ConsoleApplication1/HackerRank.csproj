@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Implementation\BonApetit\BonApetit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,12 +52,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="30DaysOfCode\" />
-    <Folder Include="Algorithms\Implementation\" />
     <Folder Include="Algorithms\Warmup\" />
     <Folder Include="DataStructures\Arrays\" />
     <Folder Include="ProjectEuler\" />
     <Folder Include="Regex\" />
     <Folder Include="WeekOfCode_23\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Algorithms\Implementation\BonApetit\samples\testCase0.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

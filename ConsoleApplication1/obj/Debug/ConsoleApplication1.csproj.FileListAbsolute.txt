@@ -1,0 +1,7 @@
+E:\VSProjects\Temp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\VSProjects\Temp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\VSProjects\Temp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\VSProjects\Temp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\VSProjects\Temp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\VSProjects\Temp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\VSProjects\Temp\ConsoleApplication1\ConsoleApplication1\bin\Debug\30DaysOfCode\11_2DArrays\samples\testCase0.txt

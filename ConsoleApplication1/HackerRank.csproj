@@ -45,7 +45,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeekOfCode_23\04_UnexpectedProblem\UnexpectedProblem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -58,11 +57,7 @@
     <Folder Include="Mathematics\Fundamentals\" />
     <Folder Include="ProjectEuler\" />
     <Folder Include="Regex\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="WeekOfCode_23\04_UnexpectedProblem\samples\testCase0.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Folder Include="WeekOfCode_23\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

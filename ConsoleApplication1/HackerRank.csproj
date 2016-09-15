@@ -44,29 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\Implementation\Kangaroo\Kangaroo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeekOfCode_23\04_UnexpectedProblem\UnexpectedProblem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="30DaysOfCode\" />
+    <Folder Include="Algorithms\Implementation\" />
     <Folder Include="Algorithms\Warmup\" />
     <Folder Include="DataStructures\Arrays\" />
     <Folder Include="Mathematics\Fundamentals\" />
     <Folder Include="ProjectEuler\" />
     <Folder Include="Regex\" />
-    <Folder Include="WeekOfCode_23\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Algorithms\Implementation\Kangaroo\samples\testCase22.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Algorithms\Implementation\Kangaroo\samples\testCase1.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Algorithms\Implementation\Kangaroo\samples\testCase0.txt">
+    <Content Include="WeekOfCode_23\04_UnexpectedProblem\samples\testCase0.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

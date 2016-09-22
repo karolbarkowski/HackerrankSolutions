@@ -44,7 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\Implementation\ServiceLane\ServiceLane.cs" />
+    <Compile Include="Algorithms\DynamicProgramming\RedJohnIsBack\RedJohnIsBack.cs" />
+    <Compile Include="Algorithms\Implementation\SaveThePrisoner\SaveThePrisoner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="30DaysOfCode\" />
-    <Folder Include="Algorithms\DynamicProgramming\" />
     <Folder Include="Algorithms\Warmup\" />
     <Folder Include="DataStructures\Arrays\" />
     <Folder Include="Mathematics\Fundamentals\" />
@@ -61,7 +61,13 @@
     <Folder Include="WeekOfCode_23\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Algorithms\Implementation\ServiceLane\samples\testCase0.txt">
+    <Content Include="Algorithms\DynamicProgramming\RedJohnIsBack\samples\testCase0.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Algorithms\DynamicProgramming\RedJohnIsBack\samples\testCase1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Algorithms\Implementation\SaveThePrisoner\samples\testCase0.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

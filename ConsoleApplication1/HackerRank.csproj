@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\ConstructiveAlgorithms\FlippingTheMatrix\FlippingTheMatrix.cs" />
+    <Compile Include="Algorithms\Strings\Pangrams\Pangrams.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="30DaysOfCode\" />
+    <Folder Include="Algorithms\ConstructiveAlgorithms\" />
+    <Folder Include="Algorithms\DynamicProgramming\" />
     <Folder Include="Algorithms\Implementation\" />
     <Folder Include="Algorithms\Warmup\" />
     <Folder Include="CrackingTheCodingInterview\" />
@@ -63,14 +65,11 @@
     <Folder Include="WorldCodeSprint7\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Algorithms\ConstructiveAlgorithms\FlippingTheMatrix\samples\sample0.txt">
+    <Content Include="Algorithms\Strings\Pangrams\samples\testCase1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Algorithms\DynamicProgramming\RedJohnIsBack\samples\testCase0.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Algorithms\DynamicProgramming\RedJohnIsBack\samples\testCase1.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Algorithms\Strings\Pangrams\samples\testCase0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

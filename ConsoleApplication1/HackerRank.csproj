@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\Strings\BeautifulBinaryString\BeautifulBinaryString.cs" />
+    <Compile Include="Algorithms\Strings\TheLoveLetterMystery\TheLoveLetterMystery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,22 +56,16 @@
     <Folder Include="Algorithms\DynamicProgramming\" />
     <Folder Include="Algorithms\Implementation\" />
     <Folder Include="Algorithms\Warmup\" />
+    <Folder Include="Contests\ProjectEuler\" />
+    <Folder Include="Contests\WeekOfCode_23\" />
+    <Folder Include="Contests\WorldCodeSprint7\" />
     <Folder Include="CrackingTheCodingInterview\" />
     <Folder Include="DataStructures\Arrays\" />
     <Folder Include="Mathematics\Fundamentals\" />
-    <Folder Include="ProjectEuler\" />
     <Folder Include="Regex\" />
-    <Folder Include="WeekOfCode_23\" />
-    <Folder Include="WorldCodeSprint7\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Algorithms\Strings\BeautifulBinaryString\samples\testCase2.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Algorithms\Strings\BeautifulBinaryString\samples\testCase1.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Algorithms\Strings\BeautifulBinaryString\samples\testCase0.txt">
+    <Content Include="Algorithms\Strings\TheLoveLetterMystery\samples\testCase0.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

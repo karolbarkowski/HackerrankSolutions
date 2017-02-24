@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\Strings\Pangrams\Pangrams.cs" />
+    <Compile Include="Algorithms\Strings\SuperReducedString\SuperReducedString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,10 +65,10 @@
     <Folder Include="WorldCodeSprint7\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Algorithms\Strings\Pangrams\samples\testCase1.txt">
+    <Content Include="Algorithms\Strings\SuperReducedString\samples\testCase0.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Algorithms\Strings\Pangrams\samples\testCase0.txt">
+    <Content Include="Algorithms\Strings\SuperReducedString\samples\testCase1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

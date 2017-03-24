@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\Strings\GameOfThronesI\GameOfThronesI.cs" />
+    <Compile Include="Algorithms\Implementation\BreakingTheRecords\BreakingTheRecords.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,10 +54,12 @@
     <Folder Include="30DaysOfCode\" />
     <Folder Include="Algorithms\ConstructiveAlgorithms\" />
     <Folder Include="Algorithms\DynamicProgramming\" />
-    <Folder Include="Algorithms\Implementation\" />
+    <Folder Include="Algorithms\GraphTheory\" />
+    <Folder Include="Algorithms\Strings\" />
     <Folder Include="Algorithms\Warmup\" />
     <Folder Include="Contests\ProjectEuler\" />
     <Folder Include="Contests\WeekOfCode_23\" />
+    <Folder Include="Contests\WeekOfCode_30\" />
     <Folder Include="Contests\WorldCodeSprint7\" />
     <Folder Include="CrackingTheCodingInterview\" />
     <Folder Include="DataStructures\Arrays\" />
@@ -65,10 +67,10 @@
     <Folder Include="Regex\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Algorithms\Strings\GameOfThronesI\samples\testCase1.txt">
+    <Content Include="Algorithms\Implementation\BreakingTheRecords\samples\testCase1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Algorithms\Strings\GameOfThronesI\samples\testCase0.txt">
+    <Content Include="Algorithms\Implementation\BreakingTheRecords\samples\testCase0.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

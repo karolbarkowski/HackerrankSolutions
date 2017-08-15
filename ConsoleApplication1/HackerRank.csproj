@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\Implementation\BreakingTheRecords\BreakingTheRecords.cs" />
+    <Compile Include="Algorithms\Warmup\SimpleArraySum\SimpleArraySum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,8 +55,8 @@
     <Folder Include="Algorithms\ConstructiveAlgorithms\" />
     <Folder Include="Algorithms\DynamicProgramming\" />
     <Folder Include="Algorithms\GraphTheory\" />
+    <Folder Include="Algorithms\Implementation\" />
     <Folder Include="Algorithms\Strings\" />
-    <Folder Include="Algorithms\Warmup\" />
     <Folder Include="Contests\ProjectEuler\" />
     <Folder Include="Contests\WeekOfCode_23\" />
     <Folder Include="Contests\WeekOfCode_30\" />
@@ -67,12 +67,9 @@
     <Folder Include="Regex\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Algorithms\Implementation\BreakingTheRecords\samples\testCase1.txt">
+    <EmbeddedResource Include="Algorithms\Warmup\SimpleArraySum\samples\testCase0.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Algorithms\Implementation\BreakingTheRecords\samples\testCase0.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
